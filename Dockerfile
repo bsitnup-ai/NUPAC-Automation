@@ -1,7 +1,7 @@
- # Use latest Node.js 22 LTS
-FROM node:22-slim
+# Use Node.js 22 (latest LTS)
+FROM node:22
 
-# Install system dependencies for Chrome / Puppeteer
+# Install dependencies for Chrome / Puppeteer
 RUN apt-get update && apt-get install -y \
     wget gnupg ca-certificates \
     fonts-liberation libappindicator3-1 xdg-utils \
@@ -11,22 +11,15 @@ RUN apt-get update && apt-get install -y \
 # Set working directory
 WORKDIR /app
 
-# Copy dependency files
+# Copy package files and install deps
 COPY package*.json ./
+RUN npm install --omit=dev
 
-# Install dependencies (no cache to keep image light)
-RUN npm ci --omit=dev
-
-# Copy application code
+# Copy source code
 COPY . .
 
-# Create persistent folder for WhatsApp session
-RUN mkdir -p /app/.wwebjs_auth
-VOLUME ["/app/.wwebjs_auth"]
-
-# Expose the app’s port (adjust if your index.js uses another one)
+# Expose app port
 EXPOSE 4000
 
-# Default start command
+# Start the app
 CMD ["node", "index.js"]
-
