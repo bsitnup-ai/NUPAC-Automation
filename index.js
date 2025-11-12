@@ -160,10 +160,20 @@ If unsure, say: "I only know what is in the document."
         backupSyncIntervalMs: 300_000,
         clientId: CLIENT_ID
       }),
-      puppeteer: {
-        headless: true,
-        args: ['--no-sandbox', '--disable-setuid-sandbox']
-      }
+puppeteer: {
+  headless: true,
+  args: [
+    '--no-sandbox',
+    '--disable-setuid-sandbox',
+    '--disable-dev-shm-usage',
+    '--disable-gpu',
+    '--no-zygote',
+    '--single-process',
+    '--disable-extensions',
+  ],
+  executablePath: '/usr/bin/google-chrome-stable'
+}
+
     });
 
     // Events
