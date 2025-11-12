@@ -1,0 +1,24 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+
+# Local databases / sessions
+session/
+tokens/
+sessions/
+.wwebjs_auth/
+.wwebjs_cache/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Puppeteer cache
+.chromium/
+.local-chromium/
