@@ -1,0 +1,71 @@
+2025/11/12-15:52:06.430 24d5 Reusing MANIFEST /home/darkmatter/Projects/NUPAC Automation/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/12-15:52:06.430 24d5 Recovering log #65
+2025/11/12-15:52:06.459 24d5 Reusing old log /home/darkmatter/Projects/NUPAC Automation/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000065.log 
+2025/11/12-15:52:08.492 24d5 Level-0 table #70: started
+2025/11/12-15:52:08.499 24d5 Level-0 table #70: 158746 bytes OK
+2025/11/12-15:52:08.500 24d5 Delete type=0 #65
+2025/11/12-15:52:08.500 24d5 Manual compaction at level-0 from '\x00\x1b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/11/12-15:52:11.786 24d5 Compacting 1@1 + 1@2 files
+2025/11/12-15:52:11.842 24d5 Generated table #71@1: 44761 keys, 1859690 bytes
+2025/11/12-15:52:11.842 24d5 Compacted 1@1 + 1@2 files => 1859690 bytes
+2025/11/12-15:52:11.843 24d5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/12-15:53:43.850 24cb Level-0 table #73: started
+2025/11/12-15:53:43.873 24cb Level-0 table #73: 1521016 bytes OK
+2025/11/12-15:53:43.875 24cb Delete type=0 #69
+2025/11/12-15:53:43.875 24cb Delete type=2 #67
+2025/11/12-15:53:43.875 24cb Delete type=2 #70
+2025/11/12-15:53:43.877 24cb Compacting 1@1 + 1@2 files
+2025/11/12-15:53:43.931 24cb Generated table #74@1: 38326 keys, 2194380 bytes
+2025/11/12-15:53:43.955 24cb Generated table #75@1: 15936 keys, 1019093 bytes
+2025/11/12-15:53:43.955 24cb Compacted 1@1 + 1@2 files => 3213473 bytes
+2025/11/12-15:53:43.957 24cb compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/11/12-15:53:47.609 24d3 Level-0 table #77: started
+2025/11/12-15:53:47.635 24d3 Level-0 table #77: 1117912 bytes OK
+2025/11/12-15:53:47.636 24d3 Delete type=0 #72
+2025/11/12-15:53:47.636 24d3 Delete type=2 #71
+2025/11/12-15:53:47.636 24d3 Delete type=2 #73
+2025/11/12-15:53:47.665 24d5 Compacting 1@1 + 2@2 files
+2025/11/12-15:53:47.734 24d5 Generated table #78@1: 35340 keys, 2190026 bytes
+2025/11/12-15:53:47.773 24d5 Generated table #79@1: 24247 keys, 1496408 bytes
+2025/11/12-15:53:47.773 24d5 Compacted 1@1 + 2@2 files => 3686434 bytes
+2025/11/12-15:53:47.775 24d5 compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/11/12-15:53:47.775 24d5 Delete type=2 #77
+2025/11/12-15:53:47.775 24d5 Delete type=2 #75
+2025/11/12-15:53:47.775 24d5 Delete type=2 #74
+2025/11/12-15:54:15.447 24d3 Level-0 table #81: started
+2025/11/12-15:54:15.476 24d3 Level-0 table #81: 1084008 bytes OK
+2025/11/12-15:54:15.478 24d3 Delete type=0 #76
+2025/11/12-15:54:15.494 24cb Compacting 1@1 + 2@2 files
+2025/11/12-15:54:15.559 24cb Generated table #82@1: 34445 keys, 2187041 bytes
+2025/11/12-15:54:15.608 24cb Generated table #83@1: 41170 keys, 1978835 bytes
+2025/11/12-15:54:15.609 24cb Compacted 1@1 + 2@2 files => 4165876 bytes
+2025/11/12-15:54:15.610 24cb compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/11/12-15:54:15.610 24cb Delete type=2 #79
+2025/11/12-15:54:15.610 24cb Delete type=2 #81
+2025/11/12-15:54:15.610 24cb Delete type=2 #78
+2025/11/12-15:54:31.300 250c Level-0 table #85: started
+2025/11/12-15:54:31.340 250c Level-0 table #85: 1030349 bytes OK
+2025/11/12-15:54:31.344 250c Delete type=0 #80
+2025/11/12-15:54:53.288 250c Compacting 1@1 + 2@2 files
+2025/11/12-15:54:53.358 250c Generated table #86@1: 34438 keys, 2194865 bytes
+2025/11/12-15:54:53.416 250c Generated table #87@1: 46529 keys, 2204613 bytes
+2025/11/12-15:54:53.426 250c Generated table #88@1: 10306 keys, 215631 bytes
+2025/11/12-15:54:53.426 250c Compacted 1@1 + 2@2 files => 4615109 bytes
+2025/11/12-15:54:53.428 250c compacted to: files[ 0 0 3 0 0 0 0 ]
+2025/11/12-15:54:53.428 250c Delete type=2 #83
+2025/11/12-15:54:53.428 250c Delete type=2 #85
+2025/11/12-15:54:53.428 250c Delete type=2 #82
+2025/11/12-15:57:13.511 250c Level-0 table #90: started
+2025/11/12-15:57:13.521 250c Level-0 table #90: 426788 bytes OK
+2025/11/12-15:57:13.522 250c Delete type=0 #84
+2025/11/12-15:57:13.523 250c Manual compaction at level-0 from '\x00\x1c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1d\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/11/12-15:57:15.156 24cb Compacting 1@1 + 3@2 files
+2025/11/12-15:57:15.221 24cb Generated table #91@1: 34823 keys, 2189394 bytes
+2025/11/12-15:57:15.282 24cb Generated table #92@1: 41022 keys, 2198354 bytes
+2025/11/12-15:57:15.297 24cb Generated table #93@1: 16885 keys, 349844 bytes
+2025/11/12-15:57:15.297 24cb Compacted 1@1 + 3@2 files => 4737592 bytes
+2025/11/12-15:57:15.298 24cb compacted to: files[ 0 0 3 0 0 0 0 ]
+2025/11/12-15:57:15.299 24cb Delete type=2 #86
+2025/11/12-15:57:15.299 24cb Delete type=2 #87
+2025/11/12-15:57:15.299 24cb Delete type=2 #88
+2025/11/12-15:57:15.299 24cb Delete type=2 #90

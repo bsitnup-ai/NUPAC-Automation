@@ -1,0 +1,18 @@
+2025/11/12-19:23:00.875 7074 Reusing MANIFEST /home/darkmatter/Projects/NUPAC Automation/.wwebjs_auth/RemoteAuth-nupac-bot/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/12-19:23:00.875 7074 Recovering log #164
+2025/11/12-19:23:00.927 7074 Reusing old log /home/darkmatter/Projects/NUPAC Automation/.wwebjs_auth/RemoteAuth-nupac-bot/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000164.log 
+2025/11/12-19:23:00.927 7074 Delete type=2 #161
+2025/11/12-19:23:00.927 7074 Delete type=2 #165
+2025/11/12-19:23:00.927 7074 Delete type=2 #162
+2025/11/12-19:23:02.284 7074 Level-0 table #170: started
+2025/11/12-19:23:02.364 7074 Level-0 table #170: 664997 bytes OK
+2025/11/12-19:23:02.376 7074 Delete type=0 #164
+2025/11/12-19:23:02.376 7074 Manual compaction at level-0 from '\x005\x00\x00\x00' @ 72057594037927935 : 1 .. '\x006\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/11/12-19:23:06.483 7074 Compacting 1@1 + 2@2 files
+2025/11/12-19:23:07.548 7074 Generated table #171@1: 44091 keys, 2232168 bytes
+2025/11/12-19:23:07.724 7074 Generated table #172@1: 23855 keys, 871547 bytes
+2025/11/12-19:23:07.724 7074 Compacted 1@1 + 2@2 files => 3103715 bytes
+2025/11/12-19:23:08.040 7074 compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/11/12-19:23:08.040 7074 Delete type=2 #167
+2025/11/12-19:23:08.040 7074 Delete type=2 #170
+2025/11/12-19:23:08.040 7074 Delete type=2 #166

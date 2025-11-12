@@ -1,0 +1,186 @@
+{
+  "groups": {
+    "120363420954766406@g.us": {
+      "strikes": {
+        "923141816983@c.us": 2
+      }
+    },
+    "120363420142438903@g.us": {
+      "strikes": {
+        "923141816983@c.us": 1
+      }
+    },
+    "120363296737133645@g.us": {
+      "strikes": {}
+    },
+    "120363314730726021@g.us": {
+      "strikes": {}
+    },
+    "120363322522162953@g.us": {
+      "strikes": {
+        "923405424517@c.us": 2
+      }
+    },
+    "120363404468311673@g.us": {
+      "strikes": {
+        "923141816983@c.us": 5,
+        "923321310222@c.us": 5
+      }
+    },
+    "120363423466030434@g.us": {
+      "strikes": {
+        "923141816983@c.us": 2
+      }
+    }
+  },
+  "users": {},
+  "actions": [
+    {
+      "type": "violation",
+      "time": "2025-11-12T12:09:28.194Z",
+      "user": "🤖",
+      "number": "923141816983",
+      "chatName": "Bot testing",
+      "message": "گالی",
+      "strikes": 1
+    },
+    {
+      "type": "violation",
+      "time": "2025-11-12T12:09:49.662Z",
+      "user": "🤖",
+      "number": "923141816983",
+      "chatName": "Web Technologies",
+      "message": "گالی",
+      "strikes": 1
+    },
+    {
+      "type": "violation",
+      "time": "2025-11-12T12:11:26.353Z",
+      "user": "🤖",
+      "number": "923141816983",
+      "chatName": "Bot testing",
+      "message": "گالی",
+      "strikes": 2
+    },
+    {
+      "type": "violation",
+      "time": "2025-11-12T12:12:37.586Z",
+      "user": "꧁ᬊᬁMr Shahᬊ᭄꧂",
+      "number": "923405424517",
+      "chatName": "Admins Skill Spectrum",
+      "message": "گالی",
+      "strikes": 1
+    },
+    {
+      "type": "violation",
+      "time": "2025-11-12T12:12:46.829Z",
+      "user": "꧁ᬊᬁMr Shahᬊ᭄꧂",
+      "number": "923405424517",
+      "chatName": "Admins Skill Spectrum",
+      "message": "گالی",
+      "strikes": 2
+    },
+    {
+      "type": "violation",
+      "time": "2025-11-12T12:50:04.836Z",
+      "user": "🤖",
+      "number": "923141816983",
+      "chatName": "Testing",
+      "message": "گالی",
+      "strikes": 1
+    },
+    {
+      "type": "violation",
+      "time": "2025-11-12T12:50:26.206Z",
+      "user": "🤖",
+      "number": "923141816983",
+      "chatName": "Testing",
+      "message": "گالی",
+      "strikes": 2
+    },
+    {
+      "type": "violation",
+      "time": "2025-11-12T12:50:54.083Z",
+      "user": "🤖",
+      "number": "923141816983",
+      "chatName": "Testing",
+      "message": "Agr yeh bot admin ho tu gali dyny waly ko remove kr dyta",
+      "strikes": 3
+    },
+    {
+      "type": "sticker_violation",
+      "time": "2025-11-12T13:43:03.980Z",
+      "user": "🫠",
+      "number": "923321310222",
+      "chatName": "Testing",
+      "strikes": 1
+    },
+    {
+      "type": "sticker_violation",
+      "time": "2025-11-12T13:43:04.398Z",
+      "user": "🫠",
+      "number": "923321310222",
+      "chatName": "Testing",
+      "strikes": 2
+    },
+    {
+      "type": "sticker_violation",
+      "time": "2025-11-12T13:43:05.140Z",
+      "user": "🫠",
+      "number": "923321310222",
+      "chatName": "Testing",
+      "strikes": 3
+    },
+    {
+      "type": "sticker_violation",
+      "time": "2025-11-12T13:43:06.655Z",
+      "user": "🫠",
+      "number": "923321310222",
+      "chatName": "Testing",
+      "strikes": 4
+    },
+    {
+      "type": "sticker_violation",
+      "time": "2025-11-12T13:43:06.799Z",
+      "user": "🫠",
+      "number": "923321310222",
+      "chatName": "Testing",
+      "strikes": 5
+    },
+    {
+      "type": "violation",
+      "time": "2025-11-12T13:44:51.178Z",
+      "user": "🤖",
+      "number": "923141816983",
+      "chatName": "Testing",
+      "message": "گالی",
+      "strikes": 4
+    },
+    {
+      "type": "violation",
+      "time": "2025-11-12T14:02:48.066Z",
+      "user": "🤖",
+      "number": "923141816983",
+      "chatName": "Testing 2",
+      "message": "Fuck",
+      "strikes": 1
+    },
+    {
+      "type": "violation",
+      "time": "2025-11-12T14:03:56.026Z",
+      "user": "🤖",
+      "number": "923141816983",
+      "chatName": "Testing 2",
+      "message": "Fuck",
+      "strikes": 2
+    },
+    {
+      "type": "sticker_violation",
+      "time": "2025-11-12T14:11:02.115Z",
+      "user": "🤖",
+      "number": "923141816983",
+      "chatName": "Testing",
+      "strikes": 5
+    }
+  ]
+}
