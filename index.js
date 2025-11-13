@@ -166,9 +166,14 @@ puppeteer: {
     '--no-sandbox',
     '--disable-setuid-sandbox',
     '--disable-dev-shm-usage',
+    '--disable-accelerated-2d-canvas',
     '--disable-gpu',
+    '--disable-features=IsolateOrigins,site-per-process',
     '--no-zygote',
-    '--single-process',
+    '--ignore-certificate-errors',
+    '--disable-extensions',
+    '--use-gl=swiftshader',
+    '--disable-software-rasterizer'
   ],
   executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || '/usr/bin/chromium'
 }
