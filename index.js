@@ -166,18 +166,13 @@ puppeteer: {
     '--no-sandbox',
     '--disable-setuid-sandbox',
     '--disable-dev-shm-usage',
-    '--disable-accelerated-2d-canvas',
     '--disable-gpu',
-    '--disable-features=IsolateOrigins,site-per-process',
     '--no-zygote',
-    '--ignore-certificate-errors',
+    '--single-process',
     '--disable-extensions',
-    '--use-gl=swiftshader',
-    '--disable-software-rasterizer'
   ],
-  executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || '/usr/bin/chromium'
+  executablePath: '/usr/bin/google-chrome-stable'
 }
-
 
     });
 
