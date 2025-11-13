@@ -1,7 +1,6 @@
 # ---- Dockerfile ----
-FROM node:22-slim
+FROM node:20-slim
 
-# Install Chromium dependencies (required by whatsapp-web.js / Puppeteer)
 RUN apt-get update && apt-get install -y \
   chromium \
   fonts-liberation \
@@ -24,17 +23,9 @@ RUN apt-get update && apt-get install -y \
   && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
-
 COPY package*.json ./
 RUN npm install
-
 COPY . .
 
-# Puppeteer will use system Chromium
 ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
-ENV PORT=3000
-
-EXPOSE 3000
-
-# Run your bot directly
-CMD ["node", "index.js"]
+CMD ["npm", "start"]
