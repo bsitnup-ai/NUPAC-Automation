@@ -169,10 +169,10 @@ puppeteer: {
     '--disable-gpu',
     '--no-zygote',
     '--single-process',
-    '--disable-extensions',
   ],
-  executablePath: '/usr/bin/google-chrome-stable'
+  executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || '/usr/bin/chromium'
 }
+
 
     });
 
